@@ -1,0 +1,286 @@
+* {
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    padding: 30px 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+
+.nav-div {
+   list-style: none;
+}
+
+button {
+    padding: 9px 20px;
+    background-color: darkblue;
+    border: 2px solid gold;
+    border-radius: 50px;
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.4s ease 0s;
+}
+
+button:hover {
+color: gold; background-color: navy;
+}
+
+
+ li {
+   display: inline-block; 
+   padding: 0px 20px;  
+}
+
+
+.first-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding-top: 5px;
+}
+
+.first  {
+    text-align: center;
+    
+}
+
+#text-color{
+    color: rgb(10, 76, 197);
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    color: white;
+    background-color: gold;
+    padding: 15px 30px;
+    border-radius: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    color: gold;
+    background: darkblue;
+}
+
+
+.icon-logo {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: row;
+    padding-top: 30px;
+}
+
+.icon-logo img {
+    width: 30px;
+}
+
+.icon-logo a {
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.img-left {
+    border-radius: 10px;
+    box-shadow: 4px 6px 8px gold;
+    flex-shrink: 0;
+}
+
+.container {
+    background-color: darkblue;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    color: white;
+    
+}
+
+.p-right {
+    line-height: 1.8rem;
+    padding: 20px;
+    flex: 1;
+}
+
+.abtn {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.hr-left{
+    clear: left;
+}
+
+
+.social-container {
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+
+}
+
+.social-m  {
+    background: darkblue;
+    color: white;
+    padding: 20px;
+    height: 35vh;
+    width: 250px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.social-m h2 {
+    margin-bottom: 10px;
+}
+
+.input-text {
+    background-color: rgb(255, 255, 255);
+    border: 30;
+    border-color: black;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+.butt {
+    background-color: darkblue;
+    border: none;
+    border-radius: 5px;
+    margin-left: 40px;
+    cursor: pointer;
+    color: white;
+}
+
+.butt:hover {
+    background-color: blue;
+
+}
+
+.main-m {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+}
+
+.contact-m {
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background: white;
+}
+
+.contact-m h2 {
+    color: gold;
+    text-align: center;
+    font-weight: bold;
+}
+
+.bdy {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.contact-m button {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid gold;
+}
+
+
+h2, .abtn {
+    color: gold;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.btn {
+    background-color: darkblue;
+    border: 2px solid gold;
+}
+
+.social-m {
+    background-color: darkblue;
+    border: 2px solid gold;
+}
+
+.sap {
+    display: inline-block;
+    background: #25d366;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 50px;
+}
+
+.sap:hover {
+    background: #febe5d;
+}
+
+footer {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-top: 3px solid gold;
+}
+
+@media (max-width:768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+    .social-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .img-left {
+        width: 80%;
+        height: auto;
+    }
+}
